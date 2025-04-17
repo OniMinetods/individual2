@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "indiv2.h"
 
 int main() {
 	return 0;
