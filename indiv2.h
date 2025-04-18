@@ -7,8 +7,7 @@ private:
 	string dishName;
 	double price;
 public:
-	Dish();
-	Dish(string _name, double _price);
+	Dish(string _name = "Chicken Doner", double _price = 249) : dishName(_name), price(_price) {} 
 
 	string getName();
 	double getPrice();
