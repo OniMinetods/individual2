@@ -1,3 +1,4 @@
-#include "indiv2.h"
-using namespace std;
-
+int summa(int a, int b)
+{
+	return a + b;
+}
