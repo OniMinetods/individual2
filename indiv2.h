@@ -22,18 +22,22 @@ public:
 };
 
 class chickenDonerCheesePita : public Dish {
+public:
 	chickenDonerCheesePita(string _name = "Chicken Doner in Cheese Pita", double _price = 289) { dishName = _name; price = _price; }
 };
 
 class beefDoner : public Dish {
+public:
 	beefDoner(string _name = "Beef Doner", double _price = 319) { dishName = _name; price = _price; }
 };
 
 class porkDoner : public Dish {
+public:
 	porkDoner(string _name = "Pork Doner", double _price = 299) { dishName = _name; price = _price; }
 };
 
 class friedDoner : public Dish {
+public:
 	friedDoner(string _name = "Fried Doner (Ўаурма жаренна€ в кл€ре)", double _price = 369) { dishName = _name; price = _price; }
 };
 
@@ -80,5 +84,12 @@ class Menu {
 private:
 	Dish Dishes[5];
 public:
+	Menu() {
+		Dishes[0] = chickenDoner();
+		Dishes[1] = chickenDonerCheesePita();
+		Dishes[2] = beefDoner();
+		Dishes[3] = porkDoner();
+		Dishes[4] = friedDoner();
+	}
 	void showMenu();
 };

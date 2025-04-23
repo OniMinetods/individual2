@@ -25,6 +25,14 @@ void AdditivesMenu::showAdditives()
 {
 	cout << "Добавки: " << endl;
 	for (int i = 0; i < 3; ++i) {
-		cout << A[i].getName() << " | " << A[i].getPrice() << "RUB" << endl;
+		cout << A[i].getName() << " | " << A[i].getPrice() << " Rub" << endl;
+	}
+}
+
+void Menu::showMenu()
+{
+	cout << "Меню: " << endl;
+	for (int i = 0; i < 5; ++i) {
+		cout << Dishes[i].getName() << " | " << Dishes[i].getPrice() << " Rub" << endl;
 	}
 }
