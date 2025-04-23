@@ -8,7 +8,7 @@ int main() {
 	cout << "Здравствуйте, для того, чтобы увидеть меню, введите <1>" << endl;
 	int Enter;
 	cin >> Enter;
-	bool flag1, flag2 = true;
+	bool flag1 = true;
 
 	// Greetings
 	while (flag1) {
@@ -17,7 +17,7 @@ int main() {
 			a.showMenu();
 			cout << endl;
 			b.showAdditives();
-			flag = false;
+			flag1 = false;
 		}
 		else
 		{
