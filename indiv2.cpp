@@ -20,3 +20,11 @@ void Dish::setPrice(double _price)
 {
 	price = _price;
 }
+
+void AdditivesMenu::showAdditives()
+{
+	cout << "Добавки: " << endl;
+	for (int i = 0; i < 3; ++i) {
+		cout << A[i].getName() << " | " << A[i].getPrice() << "RUB" << endl;
+	}
+}
