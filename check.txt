@@ -1,0 +1,7 @@
+Чек заказа
+Блюдо: Pork Doner - 299 Rub
+Добавки:
+ - Jalapeno - 20 Rub
+ - French Fries - 30 Rub
+
+Итого: 349 Rub

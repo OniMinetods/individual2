@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -77,6 +78,7 @@ public:
 		A[2] = frenchFries();
 	}
 
+	Additive* getAdditives() { return A; }
 	void showAdditives();
 };
 
@@ -91,5 +93,6 @@ public:
 		Dishes[3] = porkDoner();
 		Dishes[4] = friedDoner();
 	}
+	Dish* getDishes() { return Dishes; }
 	void showMenu();
 };
