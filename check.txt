@@ -1,7 +1,8 @@
 Чек заказа
-Блюдо: Pork Doner - 299 Rub
+Блюдо: Fried Doner (Шаурма жаренная в кляре) - 369 Rub
 Добавки:
- - Jalapeno - 20 Rub
+ - Cheese - 20 Rub
+ - Cheese - 20 Rub
  - French Fries - 30 Rub
 
-Итого: 349 Rub
+Итого: 439 Rub

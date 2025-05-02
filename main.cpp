@@ -6,15 +6,14 @@ int main() {
 	AdditivesMenu additivesMenu;
 
 	cout << "«дравствуйте, дл€ того, чтобы увидеть меню, введите <1>" << endl;
-	int Enter;
+	char Enter;
 	cin >> Enter;
 
-	// Greetings
-	while (Enter != 1) {
+	while (Enter != '1') {
 			cout << "¬веденный вами символ не распознан, попробуйте ещЄ раз" << endl;
 			cin >> Enter;
 	}
-
+	
 	menu.showMenu();
 	cout << endl;
 	additivesMenu.showAdditives();
